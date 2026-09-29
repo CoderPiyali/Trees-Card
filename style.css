@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(rgb(227, 90, 172),white,#eded8c,pink,white,#fb80e6);
+    color:black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Comic+Relief:wght@400;700&family=Elsie:wght@400;900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Slabo+13px&family=Smooch+Sans:wght@100..900&display=swap');   
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+   }
+header{
+    text-align: center;
+    padding: 30px 10px;
+   }
+header h1{
+    font-size:25px;
+    font-family: "Pacifico", cursive;
+    text-decoration: underline;
+   color: blue;
+}
+header h1:hover{
+    color: #89c880;
+    cursor: pointer;
+    transition: 1s;
+}
+header h5{
+    margin-top: 5px;
+    color: lab(92.04% -23.69 71.61);
+    font-family:"Lobster Two", sans-serif;
+    font-weight: normal;
+   }
+   header h5:hover{
+    color: lch(79.67% 35.04 221.92);
+    cursor: pointer;
+    transition: 1s;
+   }
+.card{
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+.card img:hover{
+    height: 155px;
+    border: 5px solid hwb(331 4% 9%);
+}
+.card:hover{
+    background:linear-gradient(rgb(184, 220, 129),hsl(60, 83%, 84%),white,#7ef27e);
+    transform: translateY();
+    box-shadow: rgb(37, 35, 35);
+}
+.card h2{
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+  text-decoration: underline;
+}
+.card h2:hover{
+    color: #6262b1;
+    cursor: pointer;
+    transition: 1s;
+}
+.card p{
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 15px;
+    color:black;
+    text-align: left;
+}
+.card p:hover{
+    color: hwb(332 36% 2%);
+    cursor: pointer;
+    transition: 1s;
+}
